@@ -1,0 +1,29 @@
+{
+  "name": "portfolioredux",
+  "version": "1.0.0",
+  "description": "Professional Portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeM85/portfolioRedux.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Michael Meleck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeM85/portfolioRedux/issues"
+  },
+  "homepage": "https://github.com/MikeM85/portfolioRedux#readme"
+}

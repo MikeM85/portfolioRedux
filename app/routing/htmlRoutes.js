@@ -7,11 +7,16 @@ module.exports = function(app) {
 
 	// Home page
 	app.get('/', function(req, res) {
-		res.sendFile(path.join(__dirname, '../public/home.html'));
+		res.sendFile(path.join(__dirname, '../public/index.html'));
 	});
 
-	// Survey page
-	app.get('/survey', function(req, res) {
-		res.sendFile(path.join(__dirname, '../public/survey.html'));
+	// portfolio page
+	app.get('/portfolio', function(req, res) {
+		res.sendFile(path.join(__dirname, '../public/portfolio.html'));
+	});
+
+	// portfolio page
+	app.get('/contact', function(req, res) {
+		res.sendFile(path.join(__dirname, '../public/contact.html'));
 	});
 };
