@@ -1,12 +1,12 @@
 // 1. Initialize Firebase
 var config = {
-    apiKey: "AIzaSyBXXGnt7d6ghP47Jbl5O0H-t9wm3p7bWNQ",
-    authDomain: "mondayssuck-8d907.firebaseapp.com",
-    databaseURL: "https://mondayssuck-8d907.firebaseio.com",
-    projectId: "mondayssuck-8d907",
-    storageBucket: "mondayssuck-8d907.appspot.com",
-    messagingSenderId: "591121740036"
-  };
+  apiKey: "AIzaSyBrLrhNc3KRGaADpRojBsm0vwKuJdjPyAg",
+  authDomain: "portfoliocontact-65245.firebaseapp.com",
+  databaseURL: "https://portfoliocontact-65245.firebaseio.com",
+  projectId: "portfoliocontact-65245",
+  storageBucket: "portfoliocontact-65245.appspot.com",
+  messagingSenderId: "180793803264"
+};
 
 
 firebase.initializeApp(config);
