@@ -1,7 +1,7 @@
 // 1. Initialize Firebase
 var config = {
   apiKey: "AIzaSyBrLrhNc3KRGaADpRojBsm0vwKuJdjPyAg",
-  authDomain: "portfoliocontact-65245.firebaseapp.com",
+  authDomain: "",
   databaseURL: "https://portfoliocontact-65245.firebaseio.com",
   projectId: "portfoliocontact-65245",
   storageBucket: "portfoliocontact-65245.appspot.com",
@@ -13,7 +13,7 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
-// 2. Button for adding trains
+// Button for comments
 $("#add-comment-btn").on("click", function(event) {
 event.preventDefault();
 
@@ -22,7 +22,7 @@ var empName = $("#name-input").val().trim();
 var emailInput = $("#email-input").val().trim();
 var comInput = $("#comments-input").val().trim();
 
-// console.log(empfrequency);
+
 // Creates local "temporary" object 
 var newEmp = {
   name: empName,
