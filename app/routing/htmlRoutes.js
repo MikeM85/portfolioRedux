@@ -19,4 +19,9 @@ module.exports = function(app) {
 	app.get('/contact', function(req, res) {
 		res.sendFile(path.join(__dirname, '../public/contact.html'));
 	});
+
+	// resume
+	app.get('/resume', function(req, res) {
+		res.sendFile(path.join(__dirname, '../public/resume.html'));
+	});
 };
