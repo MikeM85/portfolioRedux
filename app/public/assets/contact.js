@@ -1,6 +1,6 @@
 // 1. Initialize Firebase
 var config = {
-  apiKey: "AIzaSyBrLrhNc3KRGaADpRojBsm0vwKuJdjPyAg",
+  apiKey: "",
   authDomain: "",
   databaseURL: "https://portfoliocontact-65245.firebaseio.com",
   projectId: "portfoliocontact-65245",
