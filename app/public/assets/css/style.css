@@ -20,6 +20,32 @@
     display: table;
   }
 
+  /* .resume {
+    background: url('/app/public/assets/images/MichaelMeleck.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+/* .resume {
+    width: 100%;
+    height: auto;
+} */
+
+
+.resume {
+    display: inline-block;
+    width: 25%; 
+    height: auto;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100%; 
+  }
+}
+
 
     .divImageHolder {
       /* float: left; */
