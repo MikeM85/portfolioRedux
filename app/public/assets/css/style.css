@@ -7,6 +7,11 @@
     background-color: aqua;
   }
 
+  .headerimg{
+    width: 400px; 
+    height: auto;
+  }
+
   #background{
     background-image:  url(https://picsum.photos/800/900/?random); 
     background-size: cover;
